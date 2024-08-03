@@ -1,4 +1,4 @@
-name: GLADOS-checkin-GMAIL1
+name: GLADOS-checkin-GMAIL
 on:
   workflow_dispatch:
   push:
@@ -17,4 +17,4 @@ jobs:
       - run: npm run main
         env:
           SCKEY: ${{ secrets.SCKEY }}
-          COOKIE1: ${{ secrets.COOKIE1 }}
+          COOKIE: ${{ secrets.COOKIE }}
